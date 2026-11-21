@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PoGo Price Guide</title>
+  <link rel="stylesheet" href="styles.css?v=7c35ff87b5">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="logo" href="#/"><span class="logo-mark">◓</span> PoGo<b>Price</b>Guide</a>
+      <form class="search" id="search-form" autocomplete="off">
+        <input id="search" type="search" placeholder="Search Pokémon, costumes, backgrounds…  e.g. shiny pikachu flower crown">
+        <button type="submit">Search</button>
+        <div class="suggest" id="suggest" hidden></div>
+      </form>
+    </div>
+    <nav class="wrap nav-row" id="region-nav"></nav>
+  </header>
+
+  <main class="wrap" id="app"><p class="muted">Loading catalog…</p></main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      Prices come from daily snapshots of eBay listings: 30-day sale medians, or the lowest asking price (grey) where there are no sales yet.
+      Catalog data: Pokémon GO game master (PokeMiners), Leek Duck, Dittobase, Bulbapedia. ·
+      <a href="#/about">Data notes</a>
+    </div>
+  </footer>
+  <script src="app.js?v=7c35ff87b5"></script>
+</body>
+</html>
