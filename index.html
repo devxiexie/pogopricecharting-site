@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PoGo Price Guide</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"%3E%3Cpath d="M4 6.5A2.5 2.5 0 0 1 6.5 4h10.4a2.5 2.5 0 0 1 1.77.73l9.6 9.6a2.5 2.5 0 0 1 0 3.54l-10.4 10.4a2.5 2.5 0 0 1-3.54 0l-9.6-9.6A2.5 2.5 0 0 1 4 16.9Z" fill="%23ffcb05"/%3E%3Ccircle cx="10.5" cy="10.5" r="2.4" fill="%2317233d"/%3E%3Cpath d="M18.5 12l1.5 3.9 3.9 1.5-3.9 1.5-1.5 3.9-1.5-3.9-3.9-1.5 3.9-1.5Z" fill="%2317233d"/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#17233d">
+  <link rel="stylesheet" href="styles.css?v=a66bf69e75">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="logo" href="#/"><svg class="logo-mark" viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h10.4a2.5 2.5 0 0 1 1.77.73l9.6 9.6a2.5 2.5 0 0 1 0 3.54l-10.4 10.4a2.5 2.5 0 0 1-3.54 0l-9.6-9.6A2.5 2.5 0 0 1 4 16.9Z" fill="#ffcb05"/><circle cx="10.5" cy="10.5" r="2.4" fill="#17233d"/><path d="M18.5 12l1.5 3.9 3.9 1.5-3.9 1.5-1.5 3.9-1.5-3.9-3.9-1.5 3.9-1.5Z" fill="#17233d"/></svg><span>PoGo<b>Price</b>Guide</span></a>
+      <form class="search" id="search-form" autocomplete="off">
+        <input id="search" type="search" placeholder="Search Pokémon, costumes, backgrounds…  e.g. shiny pikachu flower crown">
+        <button type="submit">Search</button>
+        <div class="suggest" id="suggest" hidden></div>
+      </form>
+    </div>
+    <nav class="wrap nav-row" id="region-nav"></nav>
+  </header>
+
+  <main class="wrap" id="app" aria-busy="true">
+    <div class="skel skel-h1"></div><div class="skel skel-line"></div><div class="skel skel-line short"></div>
+    <div class="skel-row"><div class="skel skel-stat"></div><div class="skel skel-stat"></div><div class="skel skel-stat"></div><div class="skel skel-stat"></div></div>
+    <div class="skel skel-table"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      Prices come from daily snapshots of eBay listings: 30-day sale medians, or the lowest asking price (grey) where there are no sales yet.
+      Catalog data: Pokémon GO game master (PokeMiners), Leek Duck, Dittobase, Bulbapedia. ·
+      <a href="#/about">Data notes</a>
+    </div>
+  </footer>
+  <script src="app.js?v=a66bf69e75"></script>
+</body>
+</html>
